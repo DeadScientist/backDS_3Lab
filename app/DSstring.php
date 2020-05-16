@@ -8,6 +8,6 @@ class DSstring extends Model
 {
     protected $table = "DSstring";
     protected $fillable = [
-        'first_name', 'last_name', 'age'
+        'first_name', 'last_name', 'created_users_inj','age'
     ];
 }

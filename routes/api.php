@@ -27,7 +27,7 @@ Route::middleware(['content_type.check'])->group(function () {
 
         Route::prefix('/dsstring')->group(function () {
             Route::post('/create','DSstringController@create');
-            Route::get('/getall','DSstringController@getall');
+            Route::post('/getall','DSstringController@getall');
             Route::post('/delete','DSstringController@delete');
         });
     });
